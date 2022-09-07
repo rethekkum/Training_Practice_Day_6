@@ -5,7 +5,8 @@ using System.Web;
 using System.Threading;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
-using System.Security.Cryptography.X509Certificates;
+using System.Threading.Tasks;
+using System.Security.AccessControl;
 
 namespace Training_Practice_6
 {
@@ -201,8 +202,59 @@ namespace Training_Practice_6
             Console.WriteLine("Id={0}, Name={1}", v98.code, v98.Name);
         }
 
-            static void Main()
+        public class Video100
         {
+            public int ID { get; set; }
+            public string Name { get; set; }
+        }
+
+        public static void Video100Invoker()
+        {
+            List<Video100> v100 = new List<Video100>()
+            {
+                new Video100{ID=100,Name="A"},
+                new Video100{ID=101,Name="B"},
+                new Video100{ID=102,Name="C"}
+            };
+
+            Func<Video100, string> selector = _v100 => "Name=" + _v100.Name;
+            IEnumerable<string> names=v100.Select(selector);
+
+            foreach(string name in names)
+            {
+                Console.WriteLine(name);
+            }
+
+        }
+        public static int CountCharacters()
+        {
+            int count = 0;
+            using(StreamReader sr=new StreamReader(@"Data-test.txt"))
+            {
+                
+                string content = sr.ReadToEnd();
+                Console.WriteLine(content);
+                count = content.Length;
+                Thread.Sleep(5000);
+            }
+            return count;
+        }
+        public async static void Video101()
+        {
+            Task<int> task = new Task<int>(CountCharacters);
+            task.Start();
+
+            Console.WriteLine("Waiting Task is executing");
+            int count = await task;
+
+            Console.WriteLine("{0} characters in a file.",count);
+        }
+
+
+            static void Main()
+            { 
+            Video101();
+            //Video100Invoker();
             //Video97Invoker();
             //Console.WriteLine(Environment.ProcessorCount);
             //Video93Invoker();
