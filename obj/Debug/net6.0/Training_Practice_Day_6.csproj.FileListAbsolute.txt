@@ -1,0 +1,15 @@
+C:\Users\Spursol-Rethek Kumar\Desktop\Training\Training_Practice_Day_6\obj\Debug\net6.0\Training_Practice_Day_6.csproj.AssemblyReference.cache
+C:\Users\Spursol-Rethek Kumar\Desktop\Training\Training_Practice_Day_6\obj\Debug\net6.0\Training_Practice_Day_6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Spursol-Rethek Kumar\Desktop\Training\Training_Practice_Day_6\obj\Debug\net6.0\Training_Practice_Day_6.AssemblyInfoInputs.cache
+C:\Users\Spursol-Rethek Kumar\Desktop\Training\Training_Practice_Day_6\obj\Debug\net6.0\Training_Practice_Day_6.AssemblyInfo.cs
+C:\Users\Spursol-Rethek Kumar\Desktop\Training\Training_Practice_Day_6\obj\Debug\net6.0\Training_Practice_Day_6.csproj.CoreCompileInputs.cache
+C:\Users\Spursol-Rethek Kumar\Desktop\Training\Training_Practice_Day_6\bin\Debug\net6.0\Training_Practice_Day_6.exe
+C:\Users\Spursol-Rethek Kumar\Desktop\Training\Training_Practice_Day_6\bin\Debug\net6.0\Training_Practice_Day_6.deps.json
+C:\Users\Spursol-Rethek Kumar\Desktop\Training\Training_Practice_Day_6\bin\Debug\net6.0\Training_Practice_Day_6.runtimeconfig.json
+C:\Users\Spursol-Rethek Kumar\Desktop\Training\Training_Practice_Day_6\bin\Debug\net6.0\Training_Practice_Day_6.dll
+C:\Users\Spursol-Rethek Kumar\Desktop\Training\Training_Practice_Day_6\bin\Debug\net6.0\Training_Practice_Day_6.pdb
+C:\Users\Spursol-Rethek Kumar\Desktop\Training\Training_Practice_Day_6\obj\Debug\net6.0\Training_Practice_Day_6.dll
+C:\Users\Spursol-Rethek Kumar\Desktop\Training\Training_Practice_Day_6\obj\Debug\net6.0\refint\Training_Practice_Day_6.dll
+C:\Users\Spursol-Rethek Kumar\Desktop\Training\Training_Practice_Day_6\obj\Debug\net6.0\Training_Practice_Day_6.pdb
+C:\Users\Spursol-Rethek Kumar\Desktop\Training\Training_Practice_Day_6\obj\Debug\net6.0\Training_Practice_Day_6.genruntimeconfig.cache
+C:\Users\Spursol-Rethek Kumar\Desktop\Training\Training_Practice_Day_6\obj\Debug\net6.0\ref\Training_Practice_Day_6.dll
