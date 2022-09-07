@@ -14,4 +14,12 @@ namespace Training_Practice_Day_6
         }
     }
 
-}
+    public partial class Video61_1
+    {
+        partial void SampleVideo61_1_Method(int i)
+        {
+            Console.WriteLine("Partial Method implemented in second file");
+        }
+    }
+
+    }

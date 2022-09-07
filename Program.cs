@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Threading.Tasks;
 using System.Security.AccessControl;
+using Training_Practice_Day_6;
 
 namespace Training_Practice_6
 {
@@ -34,6 +35,7 @@ namespace Training_Practice_6
 
     public class Training
     {
+
         public static void Thread1Function_Video92()
         {
             Console.WriteLine("Thread 1 Executing");
@@ -200,6 +202,25 @@ namespace Training_Practice_6
             
             Video98 v98=listEmployees.Find(emp=>FindEmployee(emp));
             Console.WriteLine("Id={0}, Name={1}", v98.code, v98.Name);
+
+            v98=listEmployees.Find(delegate(Video98 x) { return x.code == 102; });
+            Console.WriteLine("ID={0}, Name={1}", v98.code, v98.Name);
+        }
+
+        public static void Video99Invoker()
+        {
+            List<Video98> listEmployees = new List<Video98>()
+            {
+            new Video98{code=101,Name="Mark"},
+            new Video98{code=102,Name="Mar"},
+            new Video98{code=103,Name="Ma"},
+            };
+
+            Video98 v99 =listEmployees.Find(Emp => Emp.code == 102);
+            Console.WriteLine("ID={0}, Name={1}", v99.code, v99.Name);
+
+            int count = listEmployees.Count(x => x.Name.StartsWith("M"));
+
         }
 
         public class Video100
@@ -252,8 +273,11 @@ namespace Training_Practice_6
 
 
             static void Main()
-            { 
-            Video101();
+            {
+            Video98Invoker();
+            //Video61_1 v61 = new Video61_1();
+            //v61.Samplepublicmethod();
+            //Video101();
             //Video100Invoker();
             //Video97Invoker();
             //Console.WriteLine(Environment.ProcessorCount);
